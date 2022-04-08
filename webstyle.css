@@ -195,7 +195,7 @@ footer nav {
 }
 
 .nft-card {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     align-items: center;
 }
@@ -268,6 +268,7 @@ h3.date {
 .center {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 /* Sources CSS */
@@ -282,3 +283,93 @@ h3.date {
 .sources a:visited {
     color: grey;
 }
+
+/* ID specific CSS */
+#what-is-marketplace {
+    width:60%;
+}
+
+#most-expensive {
+    margin-left: 32px; 
+    width: 40%;
+}
+
+#fav-2-mobile {
+    display: none;
+} 
+
+/* Responsive Design for mobile */
+@media only screen and (max-width: 1024px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .nft-card {
+        margin: auto;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .button-banner {
+        flex-direction: column;
+    }
+
+    .button-banner p {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    #what-is-marketplace {
+        width: 100%;
+    }
+    
+    #most-expensive {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #fav-1 {
+        padding-top: 2em;
+        border-top: 1px solid#fff;
+    }
+
+    #fav-1, #fav-2-mobile {
+        padding-bottom: 2em;
+        border-bottom: 1px solid#fff;
+    }
+
+    #fav-2-mobile {
+        display: block;
+    }
+
+    #fav-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    nav {
+        flex-direction: column;
+    }
+
+    footer .contact {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+    .nft-card {
+        flex-direction: column;
+    }
+
+    .rotate {
+        transform: none;
+        top: 50%;
+        left: 50%;
+        white-space: nowrap;
+    }
+}
+
