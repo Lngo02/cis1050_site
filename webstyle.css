@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+body {
+    background-color: #000;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: auto;
+    max-width: 1200px;
+    padding: 1rem 2rem;
+}
+
+/* Navigation CSS */
+nav {
+    margin: auto; 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    font-size: 8px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    text-align: end;
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .logo {
+    width: 150px;
+    padding: 1em 0em;
+}
+
+/* Headings CSS */
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* List CSS */
+ol li {
+    margin-bottom: 0.5em;
+}
+
+/* Links CSS */
+p a {
+    color: #55ff80;
+}
+
+p a:visited {
+    color: grey;
+}
+
+/* Image CSS */
+img {
+    max-width: 100%;
+}
+
+/* Footer CSS */
+footer {
+    margin-top: 2em;
+}
+
+footer nav {
+    justify-content: space-evenly;
+}
+
+/* Class Based CSS */
+.caption {
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+
+.highlight {
+    background-color: #55ff80;
+    color: #000;
+    padding-left: 0.25em;
+    padding-right: 0.50em;
+    margin: 0.2em 0.2em;
+}
+
+/* Banner CSS */
+.button-banner {
+    max-width: 100%; 
+    background-color: #55ff80; 
+    color: #000;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    padding: 2em 4em;
+}
+
+.button-banner p {
+    padding: 0 1em;
+}
+
+.button-banner h2 {
+    font-weight: 900;
+}
+
+/* Button CSS */
+.button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.alt-button {
+    background-color: #55ff80;
+    color: #000;
+}
+
+
+/* NFT Card CSS */
+.details-description {
+    padding-bottom: 1em;
+}
+
+.favourite-header {
+    padding-top: 0.4em;
+}
+
+.nft-card {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    width: 50%;
+}
+
+.info {
+    margin: 1em 2em;
+}
+
+.icon {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.icon-info {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.icon-info li {
+    margin-top: 0.5em;
+}
+
+.nft-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.nft-card h3 {
+    font-size: 1.2em;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.nft-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+}
+
+h3.date {
+    padding-bottom: 20px;
+    border-bottom: #fff solid 1px;
+}
+
+/* General CSS */
+.row {
+    display: flex;
+    margin-top: 2em;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+/* Sources CSS */
+.sources {
+    color: grey;
+}
+
+.sources a {
+    color: grey;
+}
+
+.sources a:visited {
+    color: grey;
+}
